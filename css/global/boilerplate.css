@@ -1,0 +1,24 @@
+:root {
+    --bg-primary-color: #f7f7f3;
+    --bg-secondary-color: #5DA9E9;
+    --bg-tertiary-color: #003F91;
+    --accent-color: #F8FFF4;
+    --gray-color: gray;
+    
+    --h1-font: 4.5rem;
+    --h2-font: 2rem;
+    --h3-font: 1.3rem;
+    --logo-font: 2.5rem;
+
+    --font: "Orbitron", sans-serif;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: var(--bg-primary-color);
+}
+img {
+    margin: 0;
+}
